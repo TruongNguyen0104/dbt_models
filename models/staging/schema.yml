@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: staging
+    database: curious-truth-384412
+    schema: prefect_yellow_taxi_trip
+
+    tables:
+      - name: yellow_tripdata_ml
+      - name: green_2021_01_rides
+      - name: yellow_2021_01_rides
